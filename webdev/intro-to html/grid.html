@@ -1,0 +1,44 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Grid</title>
+</head>
+<body style="padding-bottom: 1000px;">
+    <div style="display: grid;
+    grid-template-columns: 100px 100px 100px 100px;
+    margin-top:30px;">
+
+        <div style="background-color: lightblue;">Div1</div>
+        <div style="background-color: lightpink;">Div2 <p>Text</p></div>
+        <div style="background-color: lightblue;">Div3</div>
+        <div style="background-color: lightblue;">Div4</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns:1fr 1fr 2fr 1fr;
+    margin-top:30px;">
+
+        <div style="background-color: lightblue;">Div1</div>
+        <div style="background-color: lightpink;">Div2 <p>Text</p></div>
+        <div style="background-color: lightblue;">Div3</div>
+        <div style="background-color: lightgreen;">Div4</div>
+    </div>
+
+    <div style="display: grid;
+    grid-template-columns:1fr 1fr 1fr;
+    margin-top:30px; column-gap: 20px; row-gap:40px;">
+
+        <div style="background-color: lightblue; height: 200px;">Div1</div>
+        <div style="background-color: lightpink; height: 200px;">Div2</div>
+        <div style="background-color: lightblue; height: 200px;">Div3</div>
+        <div style="background-color: lightblue; height: 200px;">Div1</div>
+        <div style="background-color: lightpink; height: 200px;">Div2</div>
+        <div style="background-color: lightblue; height: 200px;">Div3</div>
+        
+    </div>
+
+</body>
+</html>
